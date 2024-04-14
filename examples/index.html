@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module">
+    import { createApp, h } from 'vue'
+    import Playground from '../dist/esm/index.js'
+    import { utoa } from '../dist/esm/index.js'
+    createApp({
+      render() {
+        return h(Playground, {
+          code: utoa(JSON.stringify({
+            'src/App.vue': `
+          <${'script'} setup>
+import { ref, version } from 'vue'
+const msg = ref('Vue Version')
+</${'script'}>
+<${'template'}>
+	<div>
+    <h1>{{ msg }} {{version}}</h1>
+    <input v-model="msg"/>
+  </div>
+</${'template'}>
+          `.trim()
+          })),
+          replOptions: {
+          }
+        })
+      }
+    }).mount('#app')
+  </script>
+</body>
+</html>
