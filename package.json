@@ -12,7 +12,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "files": ["dist", "examples", "src"],
+  "files": [
+    "dist",
+    "examples",
+    "src"
+  ],
   "dependencies": {
     "fflate": "^0.8.2",
     "vue-repl-compatible": "^0.0.4"
