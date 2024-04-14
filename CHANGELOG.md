@@ -1,3 +1,6 @@
+### [v0.0.2](https://github.com/fyhhub/vue-repl-universal/compare/v0.0.1...v0.0.2)
+
+`2024-04-14`
 ### [v0.0.1](https://github.com/fyhhub/vue-repl-universal/compare/16bbe7e18c5cfb007a285e0eadd51113c6382406...v0.0.1)
 
 `2024-04-14`

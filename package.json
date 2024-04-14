@@ -1,6 +1,6 @@
 {
-  "name": "@viwo/vue-repl-universal",
-  "version": "0.0.1",
+  "name": "vue-repl-universal",
+  "version": "0.0.2",
   "description": "能同时支持Vue2/3的Vue repl组件",
   "main": "",
   "scripts": {
