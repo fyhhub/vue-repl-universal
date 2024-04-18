@@ -1,6 +1,11 @@
-# @viwo/vue-repl-universal
+# vue-repl-universal
 
-一个能同时支持Vue2/3的Vue Repl组件，**组件自身是Vue3**
+一个能同时支持Vue2/3的Vue Repl组件,**组件自身是Vue3**
+
+## 安装
+```
+npm i vue-repl-universal
+```
 
 ![图片](https://raw.githubusercontent.com/fyhhub/imgs/main/image.png)
 ## 基本使用
@@ -8,8 +13,9 @@
 
 ```js
 import { createApp, h } from 'vue'
-import Playground from '@viwo/vue-repl-universal'
-import { utoa } from '@viwo/vue-repl-universal'
+import Playground from 'vue-repl-universal'
+import { utoa } from 'vue-repl-universal'
+repl-universal'
 createApp({
   render() {
     return h(Playground, {
